@@ -1,0 +1,25 @@
+# Common files
+
+*.log
+.DS_Store
+*.bak
+*.vs
+*.pyc
+*.idea
+*.retry
+*.sh
+
+# Terraform data
+
+.terraform/
+.terraform.lock.hcl
+*.backup
+*.tfstate
+*.tfstate.*
+*.tfvars
+*tfvars*
+*.tfplan
+*.lock.*
+
+# Terraform bulids directories
+builds/
